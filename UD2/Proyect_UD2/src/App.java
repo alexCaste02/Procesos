@@ -7,7 +7,7 @@ public class App {
         // System.out.println("OS: "+System.getProperty("os.name"));
 
         Runtime.getRuntime().exec("explorer http://google.com");
-        Runtime.getRuntime().exec();
+
         
     }
 }
