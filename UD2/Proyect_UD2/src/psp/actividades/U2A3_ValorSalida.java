@@ -17,28 +17,29 @@ public class U2A3_ValorSalida {
 
     public static void main(String[] args) {
         try {
-            // Ejecutar el comando "notepad"
+
             ProcessBuilder notepadBuilder = new ProcessBuilder("notepad");
             Process notepadProcess = notepadBuilder.start();
             int notepadExitCode = notepadProcess.waitFor();
             System.out.println("notepad - Código de finalización: " + notepadExitCode);
 
-            // Ejecutar el comando "calc"
-            ProcessBuilder calcBuilder = new ProcessBuilder("calc");
+
+            ProcessBuilder calcBuilder = new ProcessBuilder("C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe");
             Process calcProcess = calcBuilder.start();
             int calcExitCode = calcProcess.waitFor();
             System.out.println("calc - Código de finalización: " + calcExitCode);
 
-            // Ejecutar un comando inexistente
+
             ProcessBuilder invalidCommandBuilder = new ProcessBuilder("comando_inexistente");
             Process invalidCommandProcess = invalidCommandBuilder.start();
             int invalidCommandExitCode = invalidCommandProcess.waitFor();
             System.out.println("comando_inexistente - Código de finalización: " + invalidCommandExitCode);
+
         } catch (IOException | InterruptedException e) {
-            e.printStackTrace();
+            System.out.println(e.getMessage());
         }
 
-        // Salir del programa con System.exit(10)
+
         System.exit(10);
     }
 }
