@@ -19,7 +19,6 @@ public class U2EG6_SumadorLanzador {
         System.out.println("THIS:"+System.getProperty("user.dir"));
         try {
             pb = new ProcessBuilder("java", clase, n1.toString(), n2.toString());
-            pb.inheritIO();
 
             pb.directory(new File(System.getProperty("user.dir")+"\\out\\production\\Procesos"));
             System.out.println("THIS 2:"+System.getProperty("user.dir"));
