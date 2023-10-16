@@ -33,7 +33,7 @@ public class Ej7_UtilidadesFicheros {
 
         ArrayList<String> lineas = new ArrayList<String>();
         BufferedReader bfr = getBufferedReader(nombreFichero);
-        //Leemos líneas del fichero...
+        //Leemos lineas del fichero...
         String linea = bfr.readLine();
         while (linea != null) {
             //Y las añadimos al array
