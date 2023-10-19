@@ -4,8 +4,13 @@
     <exclude-output />
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/UD1/Proyect_UD1/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/UD2/Proyect_UD2/src" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="KotlinJavaRuntime" level="project" />
+  </component>
+  <component name="SonarLintModuleSettings">
+    <option name="uniqueId" value="20cf09b3-506e-44f7-84c3-ae64b4fcc9ae" />
   </component>
 </module>

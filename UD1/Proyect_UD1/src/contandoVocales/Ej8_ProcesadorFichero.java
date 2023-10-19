@@ -27,7 +27,7 @@ public class Ej8_ProcesadorFichero {
                 char letraLeida = Character.toLowerCase(lineaLeida.charAt(i));
                 char letraPasada = Character.toLowerCase(letra.charAt(0));
                 // incrementamos el contador
-                if (letraLeida == letraPasada) {
+                if (isSearchedCharacter(letraLeida,letraPasada)) {
                     totalVocales++;
                 }
             }
@@ -42,6 +42,22 @@ public class Ej8_ProcesadorFichero {
         pw.close();
         br.close();
     }
+
+    private static boolean isSearchedCharacter(char letraLeida, char letraBuscada) {
+        char letraSinAcento;
+
+        switch (letraLeida){
+            case 'á' -> letraSinAcento = 'a';
+            case 'é' -> letraSinAcento = 'e';
+            case 'í' -> letraSinAcento = 'i';
+            case 'ó' -> letraSinAcento = 'o';
+            case 'ú' -> letraSinAcento = 'u';
+            default -> letraSinAcento = letraLeida;
+        }
+
+        return letraBuscada == letraSinAcento;
+    }
+
 
     /**
      * Dado un fichero pasado como argumento, contará cuantas
@@ -61,5 +77,6 @@ public class Ej8_ProcesadorFichero {
 
         String nombreFicheroResultado = args[2];
         hacerRecuento(nombreFicheroEntrada, letra, nombreFicheroResultado);
+
     }
 }
