@@ -28,7 +28,7 @@ public class GuesserLauncher {
             try {
                 t.join();
             } catch (InterruptedException e) {
-                throw new RuntimeException(e);
+                System.out.println(e.getMessage());
             }
         }
     }
