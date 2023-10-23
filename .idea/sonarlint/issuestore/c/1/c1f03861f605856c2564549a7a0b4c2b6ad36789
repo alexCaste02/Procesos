@@ -1,4 +1,5 @@
 
+<<<<<<< Updated upstream
 g	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8åŒ½´1
 {
 java:S2142"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ä ¹€8½´1
@@ -6,3 +7,9 @@ T
 java:S1135)"2Complete the task associated to this TODO comment.(¸†ëşÿÿÿÿ8“½´1
 T
 java:S1135H"2Complete the task associated to this TODO comment.(şº‚Ìûÿÿÿÿ8—½´1
+=======
+g	java:S112!"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8×›õÚµ1
+{
+java:S2142 "^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ä ¹€8‡œõÚµ1
+X	java:S125R"<This block of commented-out lines of code should be removed.(ìÀ™8”œõÚµ1
+>>>>>>> Stashed changes
