@@ -15,32 +15,26 @@ public class ChronoWindow extends JFrame {
     private JButton buttonReset;
     private JTextArea textArea;
 
-    public ChronoWindow() {
 
+    public ChronoWindow() {
         setupUI();
         setupListeners();
-
         setVisible(true);
-
-    }
-
-    private void setupListeners() {
-        buttonStart.addActionListener(e -> {
-
-        });
-
-        buttonPause.addActionListener(e -> {
-
-        });
-        buttonReset.addActionListener(e -> {
-
-        });
     }
 
     private void setupUI() {
         setContentPane(mainPanel);
         pack();
         setLocationRelativeTo(null);
+        setResizable(false);
+    }
+
+    private void setupListeners() {
+        ChronoTimer ct = new ChronoTimer(clockLabel);
+        ct.execute();
+        buttonStart.addActionListener(e -> ct.startTimer());
+        buttonPause.addActionListener(e -> ct.pauseTimer());
+        buttonReset.addActionListener(e -> ct.stopTimer());
     }
 
     public static void main(String[] args) throws UnsupportedLookAndFeelException, ClassNotFoundException, InstantiationException, IllegalAccessException {

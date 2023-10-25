@@ -33,3 +33,12 @@ n
 >UD2/Proyect_UD2/src/ejsdiapos/_2_Sumador/SumadorConHilos3.java,c\1\c1aadd641f4cf8cc9443ca293d48d464e9ee1287
 j
 :UD2/Proyect_UD2/src/ejsdiapos/adivina/GuesserLauncher.java,c\1\c1f03861f605856c2564549a7a0b4c2b6ad36789
+:
+
+.gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302
+j
+:UD2/Proyect_UD2/src/ejsdiapos/cronometro/ChronoWindow.form,3\5\355bcd0a2e670cc768b7f2505ced1207e33610a4
+j
+:UD2/Proyect_UD2/src/ejsdiapos/cronometro/ChronoWindow.java,a\f\afe35af3da1c6e21a52b0f96b62c9378b85abd92
+i
+9UD2/Proyect_UD2/src/ejsdiapos/cronometro/ChronoTimer.java,0\e\0e1b72a5cd120253e925c23385f168a981fdd9f9

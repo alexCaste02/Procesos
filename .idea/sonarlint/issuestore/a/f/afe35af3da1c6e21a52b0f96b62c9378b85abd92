@@ -1,16 +1,12 @@
 
+T
+java:S1128"7Remove this unused import 'java.awt.event.ActionEvent'.(Úù“‘8êş´¯¶1
+W
+java:S1128":Remove this unused import 'java.awt.event.ActionListener'.(Ìä¹8êş´¯¶1
 N
-java:S1068",Remove this unused "topPanel" private field.(¸¿©ûÿÿÿÿ8¦ÆóÛµ1
-N
-java:S1068	",Remove this unused "botPanel" private field.(¬¯ó·øÿÿÿÿ8§ÆóÛµ1
-K
 java:S1068
-".Remove this unused "clockLabel" private field.(±ƒÙÑ8§ÆóÛµ1
-L
-java:S1068"/Remove this unused "buttonStart" private field.(õáµ›8§ÆóÛµ1
-Q
-java:S1068"/Remove this unused "buttonPause" private field.(ËÙ¢ğÿÿÿÿÿ8§ÆóÛµ1
-Q
-java:S1068"/Remove this unused "buttonReset" private field.(µ‰Ó›üÿÿÿÿ8§ÆóÛµ1
+",Remove this unused "topPanel" private field.(¸¿©ûÿÿÿÿ8êş´¯¶1
+N
+java:S1068",Remove this unused "botPanel" private field.(¬¯ó·øÿÿÿÿ8êş´¯¶1
 I
-java:S1068",Remove this unused "textArea" private field.(ï³ŞÂ8Ô«ôÛµ1
+java:S1068",Remove this unused "textArea" private field.(ï³ŞÂ8êş´¯¶1
