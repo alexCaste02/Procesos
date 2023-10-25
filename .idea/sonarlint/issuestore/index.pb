@@ -11,3 +11,5 @@ j
 :UD2/Proyect_UD2/src/ejsdiapos/cronometro/ChronoWindow.form,3\5\355bcd0a2e670cc768b7f2505ced1207e33610a4
 j
 :UD2/Proyect_UD2/src/ejsdiapos/cronometro/ChronoWindow.java,a\f\afe35af3da1c6e21a52b0f96b62c9378b85abd92
+^
+.UD2/Proyect_UD2/src/ejsdiapos/_1_InfoHilo.java,e\d\ed10270c41e99c7fa7770050850e7b960b12ef0c
