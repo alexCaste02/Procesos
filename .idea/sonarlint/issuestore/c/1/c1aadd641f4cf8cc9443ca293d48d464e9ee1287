@@ -1,0 +1,9 @@
+
+g	java:S112@"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8¦üðµ´1
+/
+java:S1700"Rename field "acumulador"(Õˆßú
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(çú²ä
+6
+java:S1659" Declare "n2" on a separate line.(òÿ³Û
+{
+java:S2142?"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ä ¹€8¾üðµ´1

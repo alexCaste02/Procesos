@@ -5,4 +5,3 @@ n	java:S120"ZRename this package name to match the regular expression '^[a-z_
 java:S1130"xRemove the declaration of thrown exception 'java.io.FileNotFoundException' which is a subclass of 'java.io.IOException'.(Γ»Ε
 “
 java:S1130G"xRemove the declaration of thrown exception 'java.io.FileNotFoundException' which is a subclass of 'java.io.IOException'.(ΐ…ύσώÿÿÿÿ
-?	java:S106I"+Replace this use of System.out by a logger.(ραΙ*
