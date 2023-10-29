@@ -42,3 +42,11 @@ j
 :UD2/Proyect_UD2/src/ejsdiapos/cronometro/ChronoWindow.java,a\f\afe35af3da1c6e21a52b0f96b62c9378b85abd92
 i
 9UD2/Proyect_UD2/src/ejsdiapos/cronometro/ChronoTimer.java,0\e\0e1b72a5cd120253e925c23385f168a981fdd9f9
+i
+9UD1/Proyect_UD1/src/psp/actividades/U2A3_ValorSalida.java,5\f\5f841e5aa008e1f1c6a973b949b43eccbc85d773
+o
+?UD1/Proyect_UD1/src/contandoVocales/Ej7_UtilidadesFicheros.java,b\d\bd6304c441dfc1b4fcdf3d18ff9cd935576dc006
+b
+2UD1/Proyect_UD1/src/psp/sumador/U2EG5_Sumador.java,2\f\2f2506867ae8d791f35820dfa5f013e907225e65
+L
+UD1/Proyect_UD1/src/App.java,7\f\7faf6f1aa3e7485124444981b2e2534f25509e15

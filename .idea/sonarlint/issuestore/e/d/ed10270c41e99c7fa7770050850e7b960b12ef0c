@@ -1,4 +1,6 @@
 
 g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Ëùôšøÿÿÿÿ
+L	java:S106"+Replace this use of System.out by a logger.(æ¥Ž»üÿÿÿÿ8ð²™Õ·1
 H
 java:S1874"-Remove this use of "getId"; it is deprecated.(æ¥Ž»üÿÿÿÿ
+L	java:S106	"+Replace this use of System.out by a logger.(Éù±Áùÿÿÿÿ8ò²™Õ·1
