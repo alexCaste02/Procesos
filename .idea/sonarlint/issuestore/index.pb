@@ -50,3 +50,19 @@ b
 2UD1/Proyect_UD1/src/psp/sumador/U2EG5_Sumador.java,2\f\2f2506867ae8d791f35820dfa5f013e907225e65
 L
 UD1/Proyect_UD1/src/App.java,7\f\7faf6f1aa3e7485124444981b2e2534f25509e15
+ƒ
+SUD2/Proyect_UD2/src/pspT2/ejemplos/_3_CuentasBancarias/TransferenciasBancarias.java,a\2\a27a4a4b05a873d1d1fc481baabae857aaba9fe6
+r
+BUD2/Proyect_UD2/src/pspT2/ejemplos/_3_CuentasBancarias/Cuenta.java,7\c\7cf2541250b86810b53124e3c8d90501e10e9c61
+y
+IUD2/Proyect_UD2/src/pspT2/ejemplos/_3_CuentasBancarias/GestorCuentas.java,5\e\5e8ff53e318db8e4e2c30153943bbb4db58738f4
+p
+@UD2/Proyect_UD2/src/pspT2/ejemplos/_3_CuentasBancarias/Hilo.java,5\1\51d22cc38dcef1606efe86c7327e39c758458c39
+`
+0UD2/Proyect_UD2/src/ejsdiapos/taller/Alumno.java,4\e\4e091f52eb279c6c374735ff6e6dd30cc9764543
+`
+0UD2/Proyect_UD2/src/ejsdiapos/taller/Taller.java,0\d\0de278ce810bec5855a78722db8219afadf9afae
+e
+5UD2/Proyect_UD2/src/ejsdiapos/taller/Herramienta.java,7\b\7b5f834771e32700da58ea187d9b56a4a9c128cb
+l
+<UD2/Proyect_UD2/src/ejsdiapos/taller/HerramientaManager.java,5\6\5646cd44c5f8a28b8d98df0f5e4c37a5523b64ec
