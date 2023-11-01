@@ -49,10 +49,11 @@ public class Alumno implements Runnable {
                     synchronized (syncH2) {
                         System.out.println(nombre + " ha cogido las herramientas " + syncH1.getId() + " y " + syncH2.getId());
                         Thread.sleep(useTime);
+                        System.out.println(nombre + " ha soltado las herramientas, y ha empezado a descansar");
                     }
                 }
 
-                System.out.println(nombre + " ha soltado las herramientas, y ha empezado a descansar");
+
                 Thread.sleep(pauseTime);
                 System.out.println(nombre + " ha terminado de descansar");
 
