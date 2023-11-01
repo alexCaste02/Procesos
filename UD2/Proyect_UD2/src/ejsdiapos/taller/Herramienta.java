@@ -4,7 +4,7 @@ import java.util.concurrent.atomic.AtomicInteger;
 
 public class Herramienta {
 
-    private AtomicInteger idCounter = new AtomicInteger(0);
+    private static AtomicInteger idCounter = new AtomicInteger(0);
     private final int id;
     private final String nombre;
 

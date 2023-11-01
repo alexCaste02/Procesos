@@ -15,12 +15,22 @@ public class Taller {
      * */
     public static void main(String[] args) {
 
-        Thread[] arrayAlumnos = new Thread[5];
-        HerramientaManager hm = new HerramientaManager();
-        hm.generateBanco();
 
+        Herramienta[] bancoHerramientas = new Herramienta[10];
+        for (int i = 0; i < 10; i++) {
+            bancoHerramientas[i] = new Herramienta();
+        }
+
+
+        Thread[] arrayAlumnos = new Thread[5];
         for (int i = 0; i < 5; i++) {
-            new Thread(new Alumno());
+            arrayAlumnos[i] = new Thread(new Alumno(bancoHerramientas));
+        }
+
+
+        for (Thread hiloAlum : arrayAlumnos) {
+            System.out.println(hiloAlum);
+            hiloAlum.start();
         }
 
 
