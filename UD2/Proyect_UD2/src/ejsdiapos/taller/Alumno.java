@@ -1,5 +1,7 @@
 package ejsdiapos.taller;
 
+import java.util.Arrays;
+import java.util.SimpleTimeZone;
 import java.util.concurrent.ThreadLocalRandom;
 import java.util.concurrent.atomic.AtomicInteger;
 
@@ -11,16 +13,21 @@ public class Alumno implements Runnable {
     private final String nombre;
     private final Herramienta[] toolbox;
 
+    private String status;
+    private Herramienta[] usedTools;
+
     public Alumno(Herramienta[] toolbox) {
         this.id = idCounter.incrementAndGet();
         this.nombre = "Alumno " + id;
         this.toolbox = toolbox;
+        this.usedTools = new Herramienta[2];
+        status = "Stopped";
     }
 
     @Override
     public void run() {
 
-        for (int i = 0; i < Integer.MAX_VALUE; i++)  {
+        for (int i = 0; i < Integer.MAX_VALUE; i++) {
 
             int useTime = ThreadLocalRandom.current().nextInt(2000, 3001);
             int pauseTime = ThreadLocalRandom.current().nextInt(1000, 2001);
@@ -47,22 +54,38 @@ public class Alumno implements Runnable {
 
 
             try {
+                status = String.format(
+                        "Ready   (Tools: %d - %d)",
+                        syncMax.getId(), syncMin.getId()
+                );
 
                 synchronized (syncMax) {
                     synchronized (syncMin) {
-                        System.out.println(nombre + " ha cogido las herramientas " + syncMax.getId() + " y " + syncMin.getId());
+
+                        status = String.format(
+                                "Working (Tools: %d - %d)",
+                                syncMax.getId(), syncMin.getId()
+                        );
+
                         Thread.sleep(useTime);
-                        System.out.println(nombre + " ha soltado las herramientas, y ha empezado a descansar");
+
+                        status = "Resting";
                     }
                 }
 
                 Thread.sleep(pauseTime);
-                System.out.println(nombre + " ha terminado de descansar");
 
-            } catch (InterruptedException e) {throw new RuntimeException(e);}
+            } catch (InterruptedException e) {
+                throw new RuntimeException(e);
+            }
 
         }
     }
 
-
+    @Override
+    public String toString() {
+        return String.format("""
+                [%-9s] Status: %s
+                """, nombre, status);
+    }
 }

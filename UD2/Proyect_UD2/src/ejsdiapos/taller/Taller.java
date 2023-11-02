@@ -1,5 +1,7 @@
 package ejsdiapos.taller;
 
+import java.util.ArrayList;
+
 public class Taller {
     /*
      * Estamos  en  un  taller  de  pŕacticas,  donde  están  trabajando  5 alumnos  y en  el  que  tenemos
@@ -13,7 +15,7 @@ public class Taller {
      * Para Herramienta únicamente necesitamos un identificador   para los mensajes.Muestra  la  evolución
      * de  la  simulación,  de  que  alumnos están trabajando con que herramienta y cudno están descansando.
      * */
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
 
 
         Herramienta[] bancoHerramientas = new Herramienta[10];
@@ -22,15 +24,22 @@ public class Taller {
         }
 
 
+        // SOBRA BASTISIMO
         Thread[] arrayAlumnos = new Thread[5];
+        ArrayList<Alumno> alumnoArrayList = new ArrayList<>()
         for (int i = 0; i < 5; i++) {
-            arrayAlumnos[i] = new Thread(new Alumno(bancoHerramientas));
+            Alumno a = new Alumno(bancoHerramientas);
+            alumnoArrayList.add(a);
+            arrayAlumnos[i] = new Thread(a);
         }
 
+        for (Thread hiloAlum : arrayAlumnos) {
+            hiloAlum.start();
+        }
 
         for (Thread hiloAlum : arrayAlumnos) {
-            System.out.println(hiloAlum);
-            hiloAlum.start();
+            hiloAlum instanceof Alumno a
+            Thread.sleep(100L);
         }
 
 

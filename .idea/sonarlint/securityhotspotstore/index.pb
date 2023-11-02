@@ -31,8 +31,6 @@ m
 Q.idea/sonarlint/securityhotspotstore/4/c/4ca32d2b814cd146402ae94ac90217cc7facd3b6,e\a\ea29d486058cd351c7eb96d78b28738cd4c4bc14
 n
 >UD2/Proyect_UD2/src/ejsdiapos/_2_Sumador/SumadorConHilos3.java,c\1\c1aadd641f4cf8cc9443ca293d48d464e9ee1287
-j
-:UD2/Proyect_UD2/src/ejsdiapos/adivina/GuesserLauncher.java,c\1\c1f03861f605856c2564549a7a0b4c2b6ad36789
 :
 
 .gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302
@@ -64,5 +62,3 @@ p
 0UD2/Proyect_UD2/src/ejsdiapos/taller/Taller.java,0\d\0de278ce810bec5855a78722db8219afadf9afae
 e
 5UD2/Proyect_UD2/src/ejsdiapos/taller/Herramienta.java,7\b\7b5f834771e32700da58ea187d9b56a4a9c128cb
-l
-<UD2/Proyect_UD2/src/ejsdiapos/taller/HerramientaManager.java,5\6\5646cd44c5f8a28b8d98df0f5e4c37a5523b64ec
