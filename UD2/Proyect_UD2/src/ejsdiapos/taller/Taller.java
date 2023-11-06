@@ -25,21 +25,26 @@ public class Taller {
 
 
         // SOBRA BASTISIMO
-        Thread[] arrayAlumnos = new Thread[5];
-        ArrayList<Alumno> alumnoArrayList = new ArrayList<>()
+        Thread[] threads = new Thread[5];
+        ArrayList<Alumno> alumnoList = new ArrayList<>();
         for (int i = 0; i < 5; i++) {
             Alumno a = new Alumno(bancoHerramientas);
-            alumnoArrayList.add(a);
-            arrayAlumnos[i] = new Thread(a);
+            alumnoList.add(a);
+            threads[i] = new Thread(a);
         }
 
-        for (Thread hiloAlum : arrayAlumnos) {
+        for (Thread hiloAlum : threads) {
             hiloAlum.start();
         }
 
-        for (Thread hiloAlum : arrayAlumnos) {
-            hiloAlum instanceof Alumno a
-            Thread.sleep(100L);
+        for (int i = 0; i < Integer.MAX_VALUE; i++) {
+            System.out.println("========================");
+            for (Alumno alumno : alumnoList) {
+                System.out.println(alumno);
+            }
+
+            System.out.println("========================");
+            Thread.sleep(1000L);
         }
 
 

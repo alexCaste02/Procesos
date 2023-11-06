@@ -84,8 +84,6 @@ public class Alumno implements Runnable {
 
     @Override
     public String toString() {
-        return String.format("""
-                [%-9s] Status: %s
-                """, nombre, status);
+        return String.format("[%-8s] Status: %s", nombre, status);
     }
 }

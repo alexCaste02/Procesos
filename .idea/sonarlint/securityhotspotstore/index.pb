@@ -62,3 +62,7 @@ p
 0UD2/Proyect_UD2/src/ejsdiapos/taller/Taller.java,0\d\0de278ce810bec5855a78722db8219afadf9afae
 e
 5UD2/Proyect_UD2/src/ejsdiapos/taller/Herramienta.java,7\b\7b5f834771e32700da58ea187d9b56a4a9c128cb
+„
+TUD2/Proyect_UD2/src/pspT2/ejemplos/_4_IncrementaDecrementa/IncrementaDecrementa.java,2\8\28f9dab147998676f93a7aeb0849a2c6c11401b1
+…
+UUD2/Proyect_UD2/src/pspT2/ejemplos/_4_IncrementaDecrementa/IncrementaDecrementa2.java,5\5\55790ca824224bfd14518e673c5e51dddc05315b
